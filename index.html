@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hacker Edition</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+		<div class="container-fluid" id="buscador">
+			<div class="row text-center">
+				<div class="col-xs-12 col-md-4">
+					<i class="glyphicon glyphicon-record"></i>			
+					<input type="text" placeholder="Ingrese su origin" id="punto-partida">
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<i class="glyphicon glyphicon-send"></i>
+					<input type="text" placeholder="Ingrese su destino" id="punto-destino">
+				</div>
+				<div class=" col-xs-12 col-md-2">
+					<button id="trazar-ruta">Traza tu ruta</button>
+				</div>
+				<div class=" col-xs-12 col-md-2">
+					<button id="encontrar">Encuentrame</button>
+				</div>
+			</div>
+		</div>
+		<div id="map">
+		</div>
+		<div id="tarifa" class="oculto"></div>
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+		<script async defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2l-M-OBQkvZm6xWgQ3ns6WxCr3LzKW5o&callback=initMap&libraries=places">
+		</script>
+		<script src="assets/js/app.js"></script>
+	</body>
+</html>
