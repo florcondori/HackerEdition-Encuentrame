@@ -5,8 +5,8 @@
 
 #buscador{
 	background-color: #f7b617;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #buscador input{
@@ -16,6 +16,7 @@
 	width: 80%;
 	outline: none;
 	margin-left: 5px;
+	padding: 4px;
 }
 
 #buscador button{
@@ -36,6 +37,8 @@
 
 #tarifa{
 	position: absolute;
+	display: flex;
+	align-items: center;
 	bottom: 0;
 	right: 0;
 	background-color: black;
@@ -47,5 +50,5 @@
 }
 
 .oculto{
-	display: none;
+	visibility: hidden;
 }
