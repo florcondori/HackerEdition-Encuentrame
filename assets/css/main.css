@@ -19,6 +19,10 @@
 	padding: 4px;
 }
 
+input[type="text"]::-webkit-input-placeholder{
+    color: #fff;
+}
+
 #buscador button{
 	border: none;
 	background-color: white;
